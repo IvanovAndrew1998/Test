@@ -27,17 +27,30 @@
     border-radius: 6px;
     height: 32px;
 }
+
 .article {
     height: 100vh;
     background: rgba(218,219,217,0.63);
     padding-top: 60px;
 }
+
+.userblock {
+    height: 200px;
+    margin-bottom: 18px;
+}
+
 .infoblock {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-block: 15px;
+    padding-inline: 15px;
 }
+
+.rounded_content {
+    border-radius: 5px;
+    background: white;
+}
+
 .infoblock__download h2  {
  margin-bottom: 10px;
 }
@@ -58,14 +71,13 @@
     flex-direction: column;
     padding: 25px;
     margin-left: 18px;
+    width: 20%;
 }
 .loginblock {
     margin-bottom: 18px;
-    background: white;
     padding-block: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 40%;
 }
 .input_login {
     width: 80%;
@@ -74,12 +86,10 @@
     width: 80%;
 }
 .registerblock {
-    background: white;
     padding-block: 15px;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 18px;
-    width: 40%;
     text-align: center;
 }
 .greytext {
@@ -89,11 +99,9 @@
     color: black;
 }
 .additionsblock {
-    background: white;
     padding-block: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 40%;
     text-align: center;
 }
 .Login_phone {
