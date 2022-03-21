@@ -80,10 +80,15 @@
     padding-right: 20px;
 }
 .input_login {
-    width: 80%;
+    margin-bottom: 10px;
+    width: 100%;
 }
 .input_password {
-    width: 80%;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.login_button {
+    margin-right: 20px;
 }
 .registerblock {
     padding-block: 15px;
@@ -123,3 +128,18 @@
     display: flex;
     align-items: center;
 }
+
+/* Блок темной темы*/
+.article.darkned {
+    background: #1b4332;
+}
+.header.darkned {
+    background: #081c15;
+}
+.rounded_content.darkned {
+    background: #081c15;
+}
+p.darkned {
+    color: white;
+}
+/* ________________*/
