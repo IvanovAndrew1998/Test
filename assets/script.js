@@ -41,11 +41,3 @@ function toggle_shittheme() {
         item.classList.add("shitted");
     }
 }
-function avatar_selection() {
-    var selectedElems = document.querySelectorAll( 'userblock')
-    for (let item of Elems) {
-        item.classList.add("selected")
-    }
-}
-
-
