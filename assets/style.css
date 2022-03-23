@@ -37,6 +37,30 @@
 .userblock {
     height: 200px;
     margin-bottom: 18px;
+    padding-inline: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+.userblock_1 {
+    height: 150px;
+    padding: 5px;
+}
+.userblock_2 {
+    height: 150px;
+    padding: 5px;
+}
+.user_avatar_1 {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.user_avatar_2 {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
 
 .infoblock {
@@ -44,7 +68,7 @@
     align-items: center;
     justify-content: space-around;
     padding-inline: 15px;
-}
+ }
 
 .rounded_content {
     border-radius: 5px;
@@ -139,7 +163,65 @@
 .rounded_content.darkned {
     background: #081c15;
 }
+.theme_block.darkned {
+    background: #081c15;
+
+}
+button.darkned {
+    background:#1b4332;
+    color: white;
+}
 p.darkned {
     color: white;
+}
+h2.darkned {
+    color: white;
+}
+h1.darkned {
+    color: white;
+}
+h3.darkned {
+    color: white;
+}
+a.darkned {
+    color:rgba(79,112,252,0.73)
+}
+.keywords.darkned {
+    color:rgba(192,252,222,0.73)
+}
+.article.darkned input {
+    background: #081c15;
+}
+.header.darkned input {
+    background: #081c15;
+}
+/* ________________*/
+/* Тема говна */
+.article.shitted {
+    background-image: url("https://sun9-64.userapi.com/impf/6eMUyJel--IF36cfW4geNzCY3Ft4pHoFnjtvrA/PCcrB5VI_W0.jpg?size=2160x2160&quality=96&sign=e513761eef70d6c9a1cb7a4b05fad2ed&type=album") ;
+}
+a.darkned {
+    color:rgba(162,252,171,0.73)
+}
+/* ________________*/
+.theme_block {
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    margin-left: 10%;
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    background: rgba(218,219,217,0.63);
+    padding: 6px;
+}
+.theme_block button {
+    margin: 1px;
+    padding: 1px;
+}
+/* ________________*/
+/* Selection part*/
+.user_avatar_1.selected {
+    padding: 199px;
+    border: 10px solid black;
 }
 /* ________________*/
